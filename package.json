@@ -1,0 +1,52 @@
+{
+  "name": "container-resizable",
+  "version": "1.1.0",
+  "type": "module",
+  "description": "一个Vue 3可拖拽调整容器宽度的组件库",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxilong258/container-resizable.git"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "resizable",
+    "draggable",
+    "container",
+    "width",
+    "composable",
+    "typescript"
+  ],
+  "author": "maxilong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxilong258/container-resizable/issues"
+  },
+  "homepage": "https://github.com/maxilong258/container-resizable#readme",
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.0",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/compiler-sfc": "^3.3.0",
+    "rollup": "^3.0.0",
+    "rollup-plugin-esbuild": "^6.1.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tslib": "^2.8.1",
+    "typescript": "^5.0.0",
+    "vue": "^3.3.0"
+  }
+}
